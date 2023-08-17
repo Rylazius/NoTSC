@@ -17,5 +17,11 @@ For those who are unfamiliar with the license, here is a summary of its main poi
 - **You must disclose the source code of your modified work and the source code you took from this project. This means you are not allowed to use code from this project (even partially) in a closed-source (or even obfuscated) application.**
 - **Your modified application must also be licensed under the GPL** 
 
+## How to setup
+1. Clone this repo
+2. Open config.json and add usertoken (a token of a account that has permission to give role, ban user), token (bot token), clientId (bot client id), guildId (server id)
+3. Run deploy-commands.js
+4. Run main.js
+
 ## Credit
 Me ([Rylazius](https://ayo.so/rylazius)
