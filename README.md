@@ -24,4 +24,4 @@ For those who are unfamiliar with the license, here is a summary of its main poi
 4. Chạy main.js
 
 ## Credit
-tui ([Rylazius](https://ayo.so/rylazius)
+tui ([Rylazius](https://ayo.so/rylazius))
