@@ -1,0 +1,10 @@
+{
+	"token": "BOT_TOKEN",
+  "clientId": "BOT_CLIENT_ID",
+	"guildId": "SERVER_ID",
+	"userToken": "USER_TOKEN",
+	"webhook": "LOG_WEBHOOk",
+	"wickVerifiedRole": "WICK_VERIFIED_ROLE",
+	"membersRole": "MEMBER_ROLE",
+	"NoTSCGuildID": "1093541001773187194"
+}
