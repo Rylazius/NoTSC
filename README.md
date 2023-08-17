@@ -1,2 +1,3 @@
 # NoTSC
-Anti TuanSoCool Members or Mutual Server Checker
+made by rylazius
+this project is boring ahh
