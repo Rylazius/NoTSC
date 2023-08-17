@@ -19,7 +19,7 @@ For those who are unfamiliar with the license, here is a summary of its main poi
 
 ## How to setup
 1. Clone this repo
-2. Open config.json and add usertoken (a token of a account that has permission to give role, ban user), token (bot token), clientId (bot client id), guildId (server id)
+2. Open config.json and add usertoken (a token of a account that has permission to give role, ban user and **in the TuanSoCool server**), token (bot token), clientId (bot client id), guildId (server id), webhook (to log verify result)
 3. Run deploy-commands.js
 4. Run main.js
 
