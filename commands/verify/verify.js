@@ -82,14 +82,13 @@ let res = await axios(failed)
 }
 
 async function complete() {
-  const userId = userId2;
   const payload = {
     "roles": [`${wickVerifiedRole}`, `${membersRole}`]
   };
 
   const giveRole = {
     method: 'patch',
-    url: `https://discord.com/api/v9/guilds/${guildId}/members/${userId}`,
+    url: `https://discord.com/api/v9/guilds/${guildId}/members/${userId2}`,
     headers: {
       'Authorization': `${userToken}`
     },
@@ -118,7 +117,7 @@ async function Success() {
   };
 		await interaction.reply({ content: `Please wait...`, ephemeral: true });
 
-		axios.get('https://discord.com/api/v9/users/' + userId + '/profile?with_mutual_guilds=true&with_mutual_friends_count=false')
+		axios.get('https://discord.com/api/v9/users/' + userId2 + '/profile?with_mutual_guilds=true&with_mutual_friends_count=false')
 		.then(resp => {
 	
 			const mutualGuilds = resp.data.mutual_guilds;
